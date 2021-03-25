@@ -51,7 +51,7 @@ export class ChildComponent implements AfterViewChecked, DoCheck, OnInit {
     console.log("afterViewChecked");
   }
   executeFunction() {
-    console.log("App Rerendered");
+    console.log("App Rerendered2");
     return "This is Child Component";
   }
 }
