@@ -27,6 +27,7 @@ export class AppComponent {
 
   updateCounter() {
     this.counter += 1;
+    console.log("counter", this.counter);
   }
 }
 
